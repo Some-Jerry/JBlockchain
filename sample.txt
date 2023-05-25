@@ -1,0 +1,60 @@
+{
+"difficulty_list": [2, 3, 3, 4, 5],
+"sender_map": {
+"Alice": ["Bob", "Charlie", "David"],
+"Bob": ["Charlie", "Eve"],
+"Charlie": ["Eve"],
+"David": ["Alice", "Charlie"],
+"Eve": ["David"]
+},
+"receiver_map": {
+"Alice": ["David"],
+"Bob": ["Alice", "David"],
+"Charlie": ["Alice", "Bob", "David"],
+"David": ["Bob", "Charlie", "Eve"],
+"Eve": ["Bob", "Charlie"]
+},
+"chainhash": "af45e7d4c2f9b7c3a9123a4bce23f5bc",
+"blockchain": [
+{
+"previoushash": "",
+"sender": "",
+"recipient": "",
+"data": "Leeroy Jenkins",
+"nonce": 0,
+"difficulty": 2
+},
+{
+"previoushash": "af45e7d4c2f9b7c3a9123a4bce23f5bc",
+"sender": "Alice",
+"recipient": "David",
+"data": "Transaction",
+"nonce": 14952,
+"difficulty": 3
+},
+{
+"previoushash": "f7b25ed1af98ec1bfbf892d0c784a188",
+"sender": "Bob",
+"recipient": "Alice",
+"data": "Transaction",
+"nonce": 7061,
+"difficulty": 3
+},
+{
+"previoushash": "f7b25ed1af98ec1bfbf892d0c784a188",
+"sender": "Charlie",
+"recipient": "Alice",
+"data": "Transaction",
+"nonce": 105469,
+"difficulty": 4
+},
+{
+"previoushash": "c27e1410f7a5da5873db7b3470a3d85b",
+"sender": "David",
+"recipient": "Bob",
+"data": "Transaction",
+"nonce": 43243,
+"difficulty": 5
+}
+]
+}
